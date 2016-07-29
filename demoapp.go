@@ -11,7 +11,7 @@ func healthHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func rootHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello from sunny San Francisco!")
+	fmt.Fprintf(w, "Hi there!")
 }
 
 func main() {
