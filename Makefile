@@ -1,7 +1,7 @@
 all: deb
 
 prep:
-	mkdir -p build/opt/twitch/u2f-honk
+	mkdir -p build/opt/twitch/demoapp
 
 demoapp:
 	go build -ldflags "-X main.VERSION=`cat VERSION`" -o ./build/opt/twitch/demoapp/demoapp demoapp.go
